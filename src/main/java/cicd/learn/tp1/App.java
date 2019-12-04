@@ -10,5 +10,8 @@ public class App
     {
         System.out.println( "CI/CD Rocks!" );
         System.out.println("hotfix");
+        
+        Car car = new Car("500 abarth","fiat",15000);
+        System.out.println(car.getMarque() +" "+car.getModele()+ " : "+car.getPrix());
     }
 }
