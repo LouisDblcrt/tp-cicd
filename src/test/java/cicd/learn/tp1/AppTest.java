@@ -46,7 +46,7 @@ public class AppTest
         assertEquals(car.getMarque(),"test");
     }
     public void testCarGetMethod3(){
-        Car car = new Car("test","test",10);
-        assertEquals(car.getPrix(),10);
+        Car car = new Car("test","test",10f);
+        assertEquals(car.getPrix(),10f);
     }
 }
