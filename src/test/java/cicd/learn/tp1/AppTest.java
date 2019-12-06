@@ -35,4 +35,18 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    public void testCarGetMethod(){
+        Car car = new Car("test","test",10);
+        assertEquals(car.getModele(),"test");
+    }
+    
+    public void testCarGetMethod2(){
+        Car car = new Car("test","test",10);
+        assertEquals(car.getMarque(),"test");
+    }
+    public void testCarGetMethod3(){
+        Car car = new Car("test","test",10);
+        assertEquals(car.getPrix(),11);
+    }
 }
