@@ -14,11 +14,11 @@ pipeline {
 
             }
         }
-                stage('Tests') {
-            steps {
+         
+    }
+    post {
+            always {
                 junit '**/surefire-reports/*.xml'
             }
         }
-         
-    }
 }
